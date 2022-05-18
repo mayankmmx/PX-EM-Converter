@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Testing</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>PX to EM Converter</h1>
+
+  <div class="container">
+    <h2>Set a default pixel size:</h2>
+    <input class="pxsize" type="text" name="" size="" value="16">
+    <span style="font-size:23px">px</span><br />
+
+    <div class="wrapper">
+      <h2>Convert PX to EM:</h2>
+      <input class="px-em" onfocus="blury2()" onblur="focus2()" type="text" name="" size="" value="">
+      <span style="font-size:23px">px</span><br />
+      <button class="btn" onclick="myFunction2()">Convert</button>
+    </div>
+
+    <div class="wrapper">
+      <h2>Convert EM to PX:</h2>
+      <input class="em-px" onfocus="blury()" onblur="focus1()" type="text" name="" size="" value="">
+      <span style="font-size:23px">em</span><br />
+
+      <button class="btn" onclick="myFunction()">Convert</button>
+    </div>
+
+    <br>
+
+
+    <h2 class="results">Result:</h2>
+    <p class="result results">&nbsp;</p>
+  </div>
+
+
+  <script src="script.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>
